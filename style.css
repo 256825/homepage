@@ -12,7 +12,7 @@ body{
     padding:0 30px
 }
 h1{
-    margin-top:200px;
+    margin-top:70px;
     margin-bottom:25px;
     font-size:75px;
     font-family:sans-serif;
@@ -111,3 +111,49 @@ div{
     transition:.30s;
    
  }
+
+/*
+=================================================
+BOOKMARKS
+=================================================
+*/
+.bookmarks{
+    padding:30px;
+    clear:both;
+}
+.bookmarks i{
+    font-size:24px;
+    margin:0 30px;
+    color:#000;
+    line-height:32px;
+    transition:.2s;
+    text-decoration:none;
+    cursor: pointer;
+}
+.bookmarks i:hover{
+    color:#000;
+    font-size:28px;
+    line-height:26px;
+
+}
+/*
+=================================================
+JACKIE
+=================================================
+*/
+#notes{
+    opacity:5;
+    transition:.2s;
+}
+.post-it{
+    color: white;
+    width:200px;
+    height:200px;
+    resize: none;
+    margin:10px;
+    background-color:black;
+    padding:15px;
+    border:none;
+    font-family:sans-serif;
+    outline:none;
+}
